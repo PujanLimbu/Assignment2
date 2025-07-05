@@ -6,7 +6,7 @@ metadata:
     app: mysql
 spec:
   imagePullSecrets:
-    - name: regcre
+    - name: regcred
   containers:
     - name: mysql
       image: 178478706138.dkr.ecr.us-east-1.amazonaws.com/mysql:latest
